@@ -12,7 +12,9 @@ ________________________________________________
 ________________________________________________
     Current Tasks
     ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-    - 
+    - So we need to create a 2d matrix that holds the following: open spaces, obstructions
+    - Create a function that generates a 2d matrix using random values (look into generating mazes)
+    - A function to display the 2d matrix (three.js scene with planes)
     ____________________________________________
         Client
     ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
@@ -26,7 +28,7 @@ ________________________________________________
 ________________________________________________
 
     -
-    
+
 ________________________________________________
               COMPLETED FEATURES/TASKS
 ________________________________________________
