@@ -7,7 +7,11 @@ import { astar } from "./algorithms/astar";
 
 function App() {
   const [gridValues, setGridValues] = useState([
-    0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0,
+    0, 0, 0, 0, 0, 
+    0, 0, 0, 0, 0, 
+    0, 0, 0, 0, 0, 
+    0, 1, 0, 0, 0, 
+    0, 0, 0, 1, 0,
   ]);
   const [path, setPath] = useState([]);
   const start = { x: 0, y: 0 };
@@ -20,11 +24,15 @@ function App() {
     setPath(path);
   };
 
+  const onReset = (e) => {
+    
+  }
   const generateMeshs = () => {
     return grid.grid.map((row, rowIndex) => {
       return row.map((value, colIndex) => {
         const isStart = start.x === colIndex && start.y === rowIndex;
         const isEnd = end.x === colIndex && end.y === rowIndex;
+        const isPath = path.some((p) => p.x === colIndex && p.y === rowIndex);
         return (
           <mesh
             key={`${rowIndex}-${colIndex}`}
@@ -32,7 +40,7 @@ function App() {
           >
             <boxGeometry />
             <meshBasicMaterial
-              color={isStart ? "green" : isEnd ? "red" : value === 1 ? "black" : "white"}
+              color={isStart ? "green" : isPath ? "blue" : isEnd ? "red" : value === 1 ? "black" : "white"}
               wireframe={false}
             />
           </mesh>

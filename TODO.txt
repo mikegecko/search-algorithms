@@ -13,8 +13,6 @@ ________________________________________________
     Current Tasks
     ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
     🟡 Create a function that generates a 2d array using random values (look into generating mazes)
-    🟡 A function to display the 2d matrix (three.js scene with planes)
-    🔴 A function for displaying the A* path in three.js scene
     🟠 Implement ability for clicking boxes to change beetween open/obstruction
     🔴 Add controls to sidebar to modify grid
     ____________________________________________
@@ -31,7 +29,7 @@ ________________________________________________
                      BUGS
 ________________________________________________
 
-    -
+    ⚠️ A* path is going through walls?
 
 ________________________________________________
               COMPLETED FEATURES/TASKS
@@ -41,3 +39,5 @@ ________________________________________________
     ✅ A* algorithm
     ✅ 2d Grid
     ✅ 2d Grid display
+    ✅ A function to display the 2d matrix (three.js scene with objects)
+    ✅ A function for displaying the A* path in three.js scene
