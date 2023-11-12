@@ -1,5 +1,5 @@
 
-class Grid {
+export class Grid {
     constructor(rows, cols, values) {
       if (values.length !== rows * cols) {
         throw new Error('Invalid grid values.');

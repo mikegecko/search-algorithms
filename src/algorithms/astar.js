@@ -9,7 +9,7 @@ class Node {
     }
   }
   
-  function astar(grid, start, end) {
+export function astar(grid, start, end) {
     const openSet = [];
     const closedSet = [];
   
