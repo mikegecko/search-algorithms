@@ -8,7 +8,7 @@ class Node {
       this.parent = null;
     }
   }
-  
+
 export function astar(grid, start, end) {
     const openSet = [];
     const closedSet = [];
@@ -47,6 +47,8 @@ export function astar(grid, start, end) {
           const nx = current.x + dx;
           const ny = current.y + dy;
   
+          //Debug
+          //console.log(`Checking (${nx}, ${ny}): ${grid.isWalkable(nx, ny)}`);
           // Check if the neighbor is a valid move (not a wall)
           if (!grid.isWalkable(nx, ny)) continue;
   
