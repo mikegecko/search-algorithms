@@ -15,6 +15,9 @@ ________________________________________________
     🟡 Create a function that generates a 2d array using random values (look into generating mazes)
     🟠 Implement ability for clicking boxes to change beetween open/obstruction
     🔴 Add controls to sidebar to modify grid
+    🟡 Animate a* finding path using debug section with time delay
+    🟡 Add timer to measure a* and other algos efficiency (disables animation)
+    - 
     ____________________________________________
         Client
     ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
@@ -22,9 +25,10 @@ ________________________________________________
         - Create theme
         - 
     ____________________________________________
-        Server
+        Algorithms 
     ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-    -
+    - A*
+    - 
 ________________________________________________
                      BUGS
 ________________________________________________
