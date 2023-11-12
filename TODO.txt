@@ -29,7 +29,7 @@ ________________________________________________
                      BUGS
 ________________________________________________
 
-    ⚠️ A* path is going through walls?
+    ✅ A* path is going through walls? -> i had the path values swapped on display
 
 ________________________________________________
               COMPLETED FEATURES/TASKS

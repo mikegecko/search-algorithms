@@ -7,11 +7,11 @@ import { astar } from "./algorithms/astar";
 
 function App() {
   const [gridValues, setGridValues] = useState([
-    0, 1, 0, 0, 1, 
-    1, 1, 0, 0, 0, 
-    1, 1, 1, 0, 0, 
-    0, 1, 1, 1, 0, 
-    1, 0, 0, 1, 0,
+    0, 1, 1, 1, 1, 
+    0, 1, 0, 1, 0, 
+    0, 1, 0, 0, 0, 
+    0, 1, 0, 1, 0, 
+    0, 0, 0, 1, 0,
   ]);
   const [path, setPath] = useState([]);
   const start = { x: 0, y: 0 };
