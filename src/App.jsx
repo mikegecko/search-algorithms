@@ -8,9 +8,9 @@ import { astar } from "./algorithms/astar";
 function App() {
   const [gridValues, setGridValues] = useState([
     0, 0, 0, 0, 0, 
-    0, 0, 0, 0, 0, 
-    0, 0, 0, 0, 0, 
     0, 1, 0, 0, 0, 
+    0, 0, 0, 0, 0, 
+    0, 1, 0, 1, 0, 
     0, 0, 0, 1, 0,
   ]);
   const [path, setPath] = useState([]);
@@ -25,7 +25,7 @@ function App() {
   };
 
   const onReset = (e) => {
-    
+    setPath([]);
   }
   const generateMeshs = () => {
     return grid.grid.map((row, rowIndex) => {
@@ -111,6 +111,7 @@ function App() {
             Controls
           </Heading>
           <Button onClick={onSimulate}>Simulate</Button>
+          <Button onClick={onReset}>Reset</Button>
         </Box>
       </Box>
     </Box>
