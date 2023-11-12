@@ -12,9 +12,11 @@ ________________________________________________
 ________________________________________________
     Current Tasks
     ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-    - So we need to create a 2d matrix that holds the following: open spaces, obstructions
-    - Create a function that generates a 2d matrix using random values (look into generating mazes)
-    - A function to display the 2d matrix (three.js scene with planes)
+    🟡 Create a function that generates a 2d array using random values (look into generating mazes)
+    🟡 A function to display the 2d matrix (three.js scene with planes)
+    🔴 A function for displaying the A* path in three.js scene
+    🟠 Implement ability for clicking boxes to change beetween open/obstruction
+    🔴 Add controls to sidebar to modify grid
     ____________________________________________
         Client
     ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
@@ -36,3 +38,6 @@ ________________________________________________
 ________________________________________________
 
     ✅ Basic blocking of site
+    ✅ A* algorithm
+    ✅ 2d Grid
+    ✅ 2d Grid display
